@@ -1,0 +1,357 @@
+.aplayer,
+footer#footer,
+.post-item-foot-icon,
+.post-head-icon,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    /* 默认标题字体 */
+    font-family: 'Open Sans', 'Noto Sans JP', 'Noto Sans SC', 'San Francisco', 'PingFang SC', Arial, 'Microsoft Yahei', sans-serif;
+}
+
+body,
+html {
+    /* 默认正文字体 */
+    font-family: 'Lato', 'Noto Sans JP', 'Noto Sans SC', 'San Francisco', 'PingFang SC', Arial, 'Microsoft Yahei', sans-serif;
+}
+
+
+/* 字号 */
+#post-content h1 {
+    font-size: 22px;
+}
+
+.navbar-brand {
+    font-size: 20px;
+}
+
+#post-content h2,
+#post-content h4 {
+    font-size: 18px;
+}
+
+#post-content h3 {
+    font-size: 16px;
+}
+
+body,
+html,
+#post-content ch1,
+#post-content ch3,
+.fancybox-caption__body ch1 {
+    /* 默认正文 */
+    font-size: 14px;
+}
+
+/* 首页文章块 & 文章页标题下方作者时间 */
+/* 图片的caption ch2 */
+.post-item-foot-icon,
+.post-head-icon,
+footer#footer,
+#post-content ch2,
+.fancybox-caption__body ch2 {
+    font-size: 12px;
+}
+
+
+/* 粗体 */
+.fancybox-caption__body ch1 {
+    font-weight: 700;
+}
+
+
+/* 颜色 */
+body,
+html {
+    color: #555;
+}
+
+/* 修正音乐播放器作者颜色，以后更新了可能会删除 */
+.aplayer .aplayer-list ol li .aplayer-list-author {
+    color: #777;
+}
+
+#post-panel {
+    background: #f2f2f2;
+}
+
+
+/* display: block */
+#post-content ch1,
+#post-content ch2,
+#post-content ch3 {
+    display: block;
+}
+
+.fancybox-caption__body {
+    max-height: 50vh;
+}
+
+
+/* 边距 */
+#post-content h1 {
+    margin: 30px 0 25px 0
+}
+
+#post-content h2,
+#post-content h4 {
+    margin: 25px 0 20px 0
+}
+
+#post-content h3 {
+    margin: 20px 0 15px 0
+}
+
+#post-content ch1 {
+    margin: 20px 0 0 0;
+}
+
+#post-content ch3 {
+    margin: 10px 0 20px 0;
+}
+
+.fancybox-caption__body ch1,
+.fancybox-caption__body ch2 {
+    margin: 10px 0 10px 0;
+}
+
+#post-content ch2 {
+    margin: 10px 0 0 0;
+}
+
+.topButton {
+    top: unset;
+    bottom: 20%;
+}
+
+.tip {
+    margin-bottom: 20px;
+}
+
+#post-content h4,
+#post-content h5 {
+    text-align: center;
+}
+
+
+/* 标题导航 */
+.tocify li,
+.tocify ul {
+    line-height: 1.1em;
+}
+
+.l-h-2x {
+    line-height: 1.5em;
+}
+
+
+/* 删除线文字颜色 */
+del {
+    color: #999;
+}
+
+/* 网站大标题 */
+.text-black {
+    color: #333;
+}
+
+.btn-gd-primary {
+    /* 浅粉色 */
+    background: #f99;
+}
+
+.bg-white .lter {
+    background-color: #839eff;
+}
+
+.bg-info {
+    color: #e3dfec;
+    background-color: #534c67;
+}
+
+.arrow.top.arrow-info:after {
+    border-bottom-color: #534c67;
+}
+
+.bg-info .progress-xs {
+    background-color: #928aa8
+}
+
+.progress-bar {
+    background-color: #cfc9de;
+}
+
+.thumb-lg {
+    width: 128px;
+}
+
+.inner-image {
+    width: 210px;
+    height: 140px;
+}
+
+.tooltip-inner {
+    max-width: 250px;
+    background-color: rgb(100 100 100 / 60%);
+    font-family: 'Source Sans Pro';
+    line-height: 1.25em;
+}
+
+.post-inser {
+    max-height: 140px;
+}
+
+@media (min-width:1300px) {
+    .app.container {
+        width: 1300px
+    }
+
+    .app.container .app-aside,
+    .app.container .app-header {
+        max-width: 1300px
+    }
+
+    .app.container .app-footer-fixed {
+        max-width: 970px
+    }
+
+    .app.container.app-aside-folded .app-footer-fixed {
+        max-width: 1110px
+    }
+
+    .app.container.app-aside-dock .app-footer-fixed {
+        max-width: 1170px
+    }
+
+    .index-image,
+    .item-thumb {
+        min-height: 343px
+    }
+
+    .item-thumb-small {
+        height: 200px;
+    }
+
+    .index-img-small {
+        width: 37.5%;
+    }
+
+    .panel-small .post-meta {
+        width: 62.5%;
+        padding: 30px 40px 15px 40px;
+    }
+
+    .panel-small .summary {
+        height: 70px;
+        overflow: hidden;
+    }
+
+    .wrapper-lg {
+        padding-bottom: 15px;
+    }
+}
+
+@media (min-width:1800px) {}
+
+
+
+.m-l-xs {
+    margin-left: 10px;
+}
+
+
+
+code::-webkit-scrollbar {
+    width: 8px;
+    height: 6px;
+}
+
+code::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: #cbcbcb;
+}
+
+code::-webkit-scrollbar-track-piece {
+    background: #eee;
+    border-radius: 4px;
+}
+
+.animated {
+    animation-duration: 0.5s;
+}
+
+
+
+#post-content img {
+    margin: 0 auto;
+}
+
+div.elypha-pic-album {
+    overflow: hidden;
+    display: -webkit-box;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+div.elypha-pic-album figure {
+    position: relative;
+    margin: 0 5px 10px 5px;
+}
+
+div.elypha-pic-album figure div {
+    position: relative;
+    height: 0;
+    width: 100%;
+}
+
+div.elypha-pic-album figure div img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+div.blank {
+    display: block;
+    margin-bottom: 10px;
+}
+
+div.tip.inlineBlock p {
+    margin: 6px 0 !important;
+}
+
+.secret_comment_textarea {
+    background: #e8e8e8 !important;
+    border-color: #ccc !important;
+}
+
+/* 样式修改 */
+
+/* 评论输入框上面图片 */
+span#comment_bg {
+    background-image: url(https://cdn.elypha.com/image/others/comment_bg.png);
+    height: 70px;
+    background-repeat: no-repeat;
+    background-position: 15px bottom;
+    display: block;
+}
+
+/* 折叠框展开后添加灰色细分割线 */
+.panel-heading.panel-collapse.collapsed {
+    border-bottom: unset;
+    border-bottom-style: none;
+    border-bottom-width: unset;
+}
+
+.panel-heading.panel-collapse {
+    border-bottom: #ddd;
+    border-bottom-style: dotted;
+    border-bottom-width: 1px;
+}
